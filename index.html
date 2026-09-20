@@ -219,7 +219,7 @@
     <div class="section-inner" data-reveal>
       <p class="section-tag" id="catalogue">Work</p>
       <h2 class="section-title">Apps <em>catalogue</em></h2>
-      <p class="hero-desc">Four apps from the private <code>noumanshakeil/stuff</code> catalogue. Hybrid AI is one desktop product; Offline AI Labs is the Android workspace — not four companion apps.</p>
+      <p class="hero-desc">Five apps from the PocketMind family catalogue. Hybrid AI is one desktop product; Offline AI Labs is the Android workspace; AI Motivation Assistant is the Windows coaching companion.</p>
       <div class="catalogue-grid">
         <article class="card app-card">
   <div class="app-visual">
@@ -313,6 +313,31 @@
   </details>
   </div>
 </article>
+
+<article class="card app-card">
+  <div class="app-visual">
+    <img class="app-hero-shot" src="assets/catalogue/motivation-assistant.jpg" alt="PocketMind: AI Motivation Assistant" width="960" height="540" loading="lazy">
+    <div class="app-film">
+      <img src="assets/catalogue/motivation/coach.jpg" alt="Motivation Assistant coaching chat" width="640" height="360" loading="lazy">
+      <img src="assets/catalogue/motivation/settings.jpg" alt="Motivation Assistant provider settings" width="640" height="360" loading="lazy">
+      <img src="assets/catalogue/motivation/atmosphere.jpg" alt="Motivation Assistant brand atmosphere" width="640" height="360" loading="lazy">
+    </div>
+  </div>
+  <div class="card-body">
+  <p class="card-kicker">PocketMind · Windows coach</p>
+  <h3>PocketMind: AI Motivation Assistant</h3>
+  <p>A calm desktop AI motivation coach. Bring your own DeepSeek, ChatGPT, or Claude key — or explore in Demo mode.</p>
+  <div class="card-meta">
+    <span class="pill">Publisher: PocketMind · Windows · MSIX</span>
+    <span><a class="card-link" href="https://github.com/noumanshakeil/PocketMind-AI-Motivation" target="_blank" rel="noopener">GitHub →</a> <a class="card-link" href="#privacy-motivation">Privacy policy →</a></span>
+  </div>
+  <details class="layer" id="spec-motivation">
+    <summary>Open spec</summary>
+    <p>Built with Electron + React + TypeScript + Vite. Packages to Windows NSIS .exe, portable .exe, and MSIX/AppX. Default provider DeepSeek V4 Pro with BYOK for OpenAI and Anthropic. Keys use OS safeStorage encryption. Coaching system prompt is the product core: emotionally intelligent, personalized, actionable.</p>
+  </details>
+  </div>
+</article>
+
       </div>
     </div>
   </section>
@@ -690,10 +715,11 @@
       <div class="privacy-grid">
         <div>
           <h3>Privacy policy access</h3>
-          <p class="pm-desc">Store-listing policies for PocketMind: AI Receptionist Studio and PocketMind AI: Reviewer And Humanizer live on this same page, instantly readable, at the permanent hashes below. The Android Hybrid AI policy from the earlier portfolio is kept at a new hash so it does not overwrite the Studio store URL.</p>
+          <p class="pm-desc">Store-listing policies for PocketMind: AI Receptionist Studio, PocketMind AI: Reviewer And Humanizer, and PocketMind: AI Motivation Assistant live on this same page, instantly readable, at the permanent hashes below. The Android Hybrid AI policy from the earlier portfolio is kept at a new hash so it does not overwrite the Studio store URL (<span class="url">#privacy-policy</span>).</p>
           <div class="policy-links">
             <a class="btn btn-primary" href="#privacy-policy">Receptionist Studio policy</a>
             <a class="btn btn-ghost" href="#privacy-reviewer-and-humanizer">Reviewer &amp; Humanizer</a>
+            <a class="btn btn-ghost" href="#privacy-motivation">AI Motivation Assistant</a>
             <a class="btn btn-ghost" href="#privacy-hybrid-ai">Hybrid AI (Android)</a>
           </div>
         </div>
@@ -830,6 +856,69 @@
         </p>
       </div>
     </section>
+
+        <section id="privacy-motivation" class="card" aria-labelledby="motivation-privacy-heading">
+      <p class="brand" style="margin-bottom:0.35rem">PocketMind: AI Motivation Assistant</p>
+      <h2 id="motivation-privacy-heading">Privacy policy</h2>
+      <div class="policy-meta">
+        <span class="pill">Publisher: PocketMind</span>
+        <span class="pill">Last updated: 2026-09-20</span>
+        <span class="pill">Windows · Microsoft Store</span>
+      </div>
+      <div class="policy-body">
+        <p>
+          This privacy policy applies to the <strong>PocketMind: AI Motivation Assistant</strong> desktop app by PocketMind
+          (Windows / Microsoft Store).
+        </p>
+
+        <h3>Summary</h3>
+        <p>
+          PocketMind: AI Motivation Assistant does <strong>not</strong> operate PocketMind cloud accounts for your coaching chats.
+          Your API keys and conversation contents stay on your device unless you choose to send a message to a
+          third-party AI provider you configure (DeepSeek, OpenAI, or Anthropic).
+        </p>
+
+        <h3>Data we store on your device</h3>
+        <ul>
+          <li>API keys for providers you configure (DeepSeek, OpenAI / ChatGPT, Anthropic / Claude)</li>
+          <li>Provider preference and optional display name</li>
+          <li>In-session chat messages while the app is open (not uploaded to PocketMind servers)</li>
+        </ul>
+        <p>
+          Keys are stored with the operating system encryption API (<code>safeStorage</code>) when available, otherwise
+          in an encoded local file under your user profile via the app’s local store.
+        </p>
+
+        <h3>Data sent over the network</h3>
+        <p>When you send a coaching message with a cloud provider selected:</p>
+        <ul>
+          <li>Your prompt, recent conversation turns, and the PocketMind system prompt are sent only to the AI provider you configured</li>
+          <li>Demo mode generates replies locally and does not call a provider</li>
+        </ul>
+        <p>PocketMind does not receive your API keys or chat contents.</p>
+
+        <h3>Children</h3>
+        <p>
+          This product is intended for adults seeking personal motivation coaching. It is not directed at children under 13.
+        </p>
+
+        <h3>Contact</h3>
+        <p>
+          Privacy questions:
+          <a href="mailto:support.pocketmind@gmail.com">support.pocketmind@gmail.com</a>
+        </p>
+        <p style="margin-bottom:0">
+          URL for this policy:
+          <br />
+          <span class="url">https://noumanshakeil.github.io/#privacy-motivation</span>
+        </p>
+        <p class="pm-desc" style="margin-top:0.75rem;margin-bottom:0">
+          Note: <span class="url">https://noumanshakeil.github.io/#privacy-policy</span> remains the permanent
+          Receptionist Studio policy URL and is intentionally unchanged.
+        </p>
+      </div>
+    </section>
+
         <section id="privacy-hybrid-ai" class="hybrid-policy" aria-labelledby="hybrid-privacy-heading">
           <p class="section-tag">Full Policy · Android</p>
           <h2 id="hybrid-privacy-heading">PocketMind Hybrid AI privacy policy</h2>
@@ -1677,6 +1766,7 @@
       <a href="https://github.com/noumanshakeil/" target="_blank" rel="noopener">GitHub</a>
       <a href="#privacy-policy">Privacy policy</a>
       <a href="#privacy-reviewer-and-humanizer">Reviewer &amp; Humanizer</a>
+      <a href="#privacy-motivation">AI Motivation</a>
       <a href="mailto:support.pocketmind@gmail.com">support.pocketmind@gmail.com</a>
       <a href="https://wa.me/923405055603" target="_blank" rel="noopener">Contact</a>
     </div>
